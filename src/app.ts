@@ -5,7 +5,6 @@ import router from "./app/routes";
 import status from "http-status";
 import globalErrorHandler from "./app/middlewares/globalErrorHandler";
 import cookieParser from "cookie-parser";
-// import { ParcelController } from "./app/modules/Parcel/parcel.controller";
 
 const app: Application = express();
 
